@@ -1,0 +1,29 @@
+#d1{
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    padding:fill;
+    border : 1px solid;
+    text-decoration: dotted;
+    font-size: 30px;
+    font-style: bold;
+    }
+.d2{
+    border:hidden 2px;
+    text-align: right;
+    font-style: italic;
+    text-transform: lowercase;
+    }
+#d3{
+    border:dotted silver solid 2px;
+    text-align: center;
+    font-style: italic;
+     }
+.center 
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    
