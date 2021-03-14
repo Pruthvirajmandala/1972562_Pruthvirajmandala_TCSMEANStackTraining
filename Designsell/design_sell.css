@@ -1,29 +1,48 @@
-#d1{
-    border-color: rgb(255, 255, 255);
+.company{  
+    font-size: 40px;
+    background-color: rgba(19, 0, 44, 0.596);
     text-align: center;
-    padding:fill;
-    border : 1px solid;
-    text-decoration: dotted;
-    font-size: 30px;
-    font-style: bold;
-    }
-.d2{
-    border:hidden 2px;
-    text-align: right;
+    color:rgb(191, 195, 199);
+    font-weight:dotted;
+    font-family: 'Times New Roman', Times, serif;
+    }  
+    
+    .AboutUs{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
     font-style: italic;
-    text-transform: lowercase;
-    }
-#d3{
-    border:dotted silver solid 2px;
     text-align: center;
-    font-style: italic;
-     }
-.center 
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    color:rgb(112, 182, 123)
     }
     
+    #backgraoundimage{
+        height: auto;
+        left: 0;
+        margin:0;
+        min-height: 350px;
+        min-width: 300px;
+        top:0;
+        width:100%;
+        
+    }
     
+    .nav{
+        background-color: rgb(255, 255, 255);
+        text-align: left;
+    
+           }
+    
+    .nav a {
+        float:center;
+        color:rgb(100, 54, 54);
+        text-align:center;
+        padding:10px;
+        font-size:20px;
+        text-decoration: rgb(243, 243, 243);
+        font-style: italic;
+    }
+    
+    .nav a:hover{
+        background-color: rgb(221, 241, 235);
+        color:rgb(224, 151, 151)
+    }
