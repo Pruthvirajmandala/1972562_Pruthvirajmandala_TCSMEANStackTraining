@@ -1,0 +1,46 @@
+#employeeList{
+    border: black ;
+    border-style:light;
+    border-width: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+#totalMessage{
+    background-color:white
+}
+
+th,td{
+    border: black solid 2px;
+    background-color:white;
+    text-align: center;
+    padding:3px;
+}
+
+td{
+    border: black solid 2px;
+    background-color:white;
+    text-align: center;
+    padding:3px;
+}
+
+#financeTable{
+    padding:40px ;
+    border:2px;
+    border:solid black 2px;
+    width:300px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    font-style: italic;
+    background-color: white;
+   
+}
+
+#financeh2{
+    text-align:center;
+    text-decoration:underline;
+}
