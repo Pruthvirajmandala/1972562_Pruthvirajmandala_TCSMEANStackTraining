@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="icon" type="img/png" href="Blog.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+        <div id="headH1"><h1 >Blogger</h1></div>
+     <div id="navbar" >   
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a href="aboutus.html" class="nav-link">About us</a>
+        </li>
+        <li class="nav-item">
+            <a href="contactus.html" class="nav-link">Contact us</a>
+        </li>
+        <li class="nav-item">
+            <a href="login.html" class="nav-link">Login</a>
+        </li>
+        <li class="nav-item">
+            <a href="blog.html" class="nav-link">blog</a>
+        </li>
+    </ul>
+     </div>
+    </div>
+    <div id="formforblog">
+       <form class="form-group">
+           <div class="row">
+               <label class="col-auto">Title for Blog</label>
+               <input class="col-auto" type="text" id="Title" /><br/>
+           </div>
+           <div class="row">
+               <label class="col-auto">Description for Blog</label>
+               <textarea class="col-sm-10" type="text" id="desc">
+               </textarea></br>
+           </div>
+           <div class="row">
+               <label class="col-sm-5 col-form-labe">Image</label>
+               <input class="col-10" type="file" id="addImage"/></br>
+           </div>
+           
+           <input type="button" class="btn btn-primary" id="addblog" value="Add blog" onclick="onFormSubmit()" />
+       </form>
+    </div>
+   </div>
+    <div id="blogsTitleH2"><h2>My Blogs</h2></div>
+    <div class="container-fluid" id="articleBlogs">
+    
+    </div>
+<script src="blog.js"></script>
+</body>
+</html>
