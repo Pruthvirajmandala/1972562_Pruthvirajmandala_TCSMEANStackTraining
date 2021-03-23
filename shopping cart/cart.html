@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="StyleSheet" href="cart.css">
+    <link rel="icon" type="img/png" href="1.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    <div id="title"><h1 >Marvel Posters</h1></div>
+    <div id="cartSize">
+        <h3 id="cartSizeNumber"></h3>
+    </div>
+    <div id="checkout"> 
+        <a class="btn btn-primary" href="checkout.html" role="button">Checkout</a>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+     <div class="col-4">
+      <div id="Item1Selected"></div>
+        <div >
+            <img src="1.jpg" class="img-fluid" alt="Item1Image">
+        </br>
+        <div id="Name">
+            <h5 id="title1">Poster :Deadpool</h5>
+        </div>
+        <div id="Price">
+            <h5 id="title1">Price:30$</h5>
+        </div>
+        </div>
+        <div id="buttons">
+        <button class="btn btn-primary" type="button" id="addItem1" onclick="poster1Add()">Add</button>
+        <button class="btn btn-secondary" type="button" id="addItem1" onclick="poster1Delete()">Delete</button>
+       </div>
+    </div>
+     <div class="col-4">
+         <div id="Item2Selected"></div>
+         <div >
+            <img src="2.jpg" class="img-fluid" alt="Item2Image">
+        </div></br>
+        <div id="product">
+            <h5 id="title1">Poster :Marvel Heros 2016</h5>
+        </div>
+        <div id="Price">
+            <h5 id="title1">Price:50$</h5>
+        </div>
+         <div id="buttons">
+        <button class="btn btn-primary" type="button" id="addItem2" onclick="poster2Add()">Add</button>
+        <button class="btn btn-secondary" type="button" id="deleteItem1" onclick="poster2Delete()">Delete</button>    
+         </div>
+      </div>
+      <div class="col-4">
+         <div id="Item3Selected"></div>
+         <div >
+            <img src="3.jpg" class="img-fluid" alt="Item3Image">
+         </div></br>
+         <div id="Name">
+            <h5 id="title1">Poster:Spiderman</h5>
+        </div>
+        <div id="Price">
+            <h5 id="title1">Price:25$</h5>
+        </div>
+         <div id="buttons">
+            <button class="btn btn-primary" type="button" id="addItem3" onclick="poster3Add()">Add</button>
+            <button class="btn btn-secondary" type="button" id="deleteItem1" onclick="poster3Delete()">Delete</button>
+         </div>
+      </div>
+    </div>
+
+    <div class="row">
+        
+        <div class="col-4">
+            <div id="Item4Selected"></div>
+            <div >
+                <img src="4.jpg" class="img-fluid" alt="Item4Image">
+            </div></br>
+            <div id="Name">
+                <h5 id="title1">Poster: Three Heros</h5>
+            </div>
+            <div id="Price">
+                <h5 id="title1">Price:40$</h5>
+            </div>
+            <div id="buttons">
+            <button class="btn btn-primary" type="button" id="addItem4" onclick="poster4Add()">Add</button>
+            <button class="btn btn-secondary" type="button" id="deleteItem1" onclick="poster4Delete()">Delete</button>
+            </div>
+         </div>
+         <div class="col-4">
+             <div id="Item5Selected"></div>
+             <div >
+                <img src="5.jpg" class="img-fluid" alt="Item5Image">
+             </div></br>
+             <div id="Name">
+                <h5 id="title1">Poster:Black Panther</h5>
+            </div>
+            <div id="Price">
+                <h5 id="title1">Price:60$</h5>
+            </div> 
+             <div id="buttons">
+             <button class="btn btn-primary" type="button" id="addItem5" onclick="poster5Add()">Add</button>
+             <button class="btn btn-secondary" type="button" id="deleteItem1" onclick="poster5Delete()">Delete</button>    
+             </div>
+          </div>
+          <div class="col-4">
+             
+              <div id="Item6Selected"></div>
+              <div >
+                <img src="6.jpg" class="img-fluid" alt="Item6Image">
+              </div>
+              <div id="Name">
+                <h5 id="title1">Poster :Marvel heros Omega</h5>
+              </div>
+              <div id="Price">
+                  <h5 id="title1">Price:55$</h5>
+              </div>
+              <div id="buttons"></br>
+              <button class="btn btn-primary" type="button" id="addItem6" onclick="poster6Add()">Add</button>
+              <button class="btn btn-secondary" type="button" id="deleteItem1" onclick="poster6Delete()">Delete</button>
+              </div>
+           </div>
+         </div>
+       </div>
+
+<script src="cart.js"></script>   
+</body>
+</html>
